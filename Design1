@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Practice</title>
+    <style>
+        #firstPara{
+            background-color: rgb(142, 221, 237);
+            height: 50px;
+            /* width: fit-content; */
+            width: 1415px;
+            /* border: 3px dotted goldenrod; */
+            border-width: 40px;
+            border-color: blanchedalmond;
+            border-style: solid;
+            border-radius: 30px;
+        }
+        #secondPara{
+            /* background-color: black; */
+            border-style: solid;
+            border-color: black;
+            border-color: yellow;
+            background-color: yellowgreen;
+            height: 42px;
+            width: 1415px;
+            border-top: 4px dotted rgb(245, 129, 129);
+            border-bottom: 7px dashed rgb(144, 255, 151);
+            border-left: 10px double rgb(140, 198, 237);
+            border-right: 13px ridge rgb(221, 145, 240);
+            border-top-left-radius: 10px;
+            border-top-right-radius: 40px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 20px;
+        }
+        #thirdPara{
+            border: 3px solid black;
+            height: 28cm;
+            width: 37cm;
+            background-image: url('https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/stan3580_copy.jpg');
+            
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <h1>First Header</h1>
+
+
+    <p id="firstPara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate sunt asperiores eum ea, adipisci dolore eaque et non suscipit veniam ratione at aut ducimus quidem aspernatur aliquam voluptates! Quae magnam neque asperiores voluptatem, unde eum! Numquam iste vitae illo magnam!</p>
+
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate sunt asperiores eum ea, adipisci dolore eaque et non suscipit veniam ratione at aut ducimus quidem aspernatur aliquam voluptates! Quae magnam neque asperiores voluptatem, unde eum! Numquam iste vitae illo magnam!</p>
+
+
+    <h1>First Header</h1>
+
+
+    <p id="secondPara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate sunt asperiores eum ea, adipisci dolore eaque et non suscipit veniam ratione at aut ducimus quidem aspernatur aliquam voluptates! Quae magnam neque asperiores voluptatem, unde eum! Numquam iste vitae illo magnam!</p>
+
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate sunt asperiores eum ea, adipisci dolore eaque et non suscipit veniam ratione at aut ducimus quidem aspernatur aliquam voluptates! Quae magnam neque asperiores voluptatem, unde eum! Numquam iste vitae illo magnam!</p>
+
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsa placeat nemo iure assumenda incidunt ad sapiente quidem iste doloremque labore totam quibusdam fugiat natus dolore autem nobis blanditiis facilis dicta! Quo excepturi a harum esse repellat magnam optio hic mollitia dignissimos, dicta nihil ad!</P>
+
+
+    <h1>First Header</h1>
+
+
+    <p id="thirdPara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate sunt asperiores eum ea, adipisci dolore eaque et non suscipit veniam ratione at aut ducimus quidem aspernatur aliquam voluptates! Quae magnam neque asperiores voluptatem, unde eum! Numquam iste vitae illo magnam!</p>
+
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate sunt asperiores eum ea, adipisci dolore eaque et non suscipit veniam ratione at aut ducimus quidem aspernatur aliquam voluptates! Quae magnam neque asperiores voluptatem, unde eum! Numquam iste vitae illo magnam!</p>
+
+</body>
+</html>
