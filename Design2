@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice rp6</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        p{
+            color: white;
+            border: 10px solid white;
+            border-color: yellow;
+        }
+        #idk{
+            border-color: cyan;
+        }
+        /* #FireFox{
+            
+            color: cyan;
+        } */
+        
+        h1,h2,h3,h4{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading 1</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem et debitis in eius ipsum doloremque reiciendis deserunt excepturi ratione, recusandae sequi at soluta perferendis ea deleniti saepe magni, impedit laboriosam animi quisquam? Pariatur quas, culpa iusto veritatis ipsum id voluptatibus.</p>
+    <h1>Heading 1</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem et debitis in eius ipsum doloremque reiciendis deserunt excepturi ratione, recusandae sequi at soluta perferendis ea deleniti saepe magni, impedit laboriosam animi quisquam? Pariatur quas, culpa iusto veritatis ipsum id voluptatibus.</p>
+    <h1>Heading 1</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem et debitis in eius ipsum doloremque reiciendis deserunt excepturi ratione, recusandae sequi at soluta perferendis ea deleniti saepe magni, impedit laboriosam animi quisquam? Pariatur quas, culpa iusto veritatis ipsum id voluptatibus.</p>
+    <h1>Heading 1</h1>
+
+    <p id="idk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem et debitis in eius ipsum doloremque reiciendis deserunt excepturi ratione, recusandae sequi at soluta perferendis ea deleniti saepe magni, impedit laboriosam animi quisquam? Pariatur quas, culpa iusto veritatis ipsum id voluptatibus.</p>
+    
+    
+    <h2>Heading 2</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti pariatur, natus suscipit alias ipsum esse, nulla, expedita harum quos voluptatem quis modi earum quo cupiditate! Laboriosam mollitia sapiente deleniti natus tempore. Blanditiis iste quas minima cupiditate voluptatum ex mollitia, quod error similique autem. Nemo repellendus tempore veniam sed recusandae.</p>
+    <h2>Heading 2</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti pariatur, natus suscipit alias ipsum esse, nulla, expedita harum quos voluptatem quis modi earum quo cupiditate! Laboriosam mollitia sapiente deleniti natus tempore. Blanditiis iste quas minima cupiditate voluptatum ex mollitia, quod error similique autem. Nemo repellendus tempore veniam sed recusandae.</p>
+    <h2>Heading 2</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti pariatur, natus suscipit alias ipsum esse, nulla, expedita harum quos voluptatem quis modi earum quo cupiditate! Laboriosam mollitia sapiente deleniti natus tempore. Blanditiis iste quas minima cupiditate voluptatum ex mollitia, quod error similique autem. Nemo repellendus tempore veniam sed recusandae.</p>
+    <h2>Heading 2</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti pariatur, natus suscipit alias ipsum esse, nulla, expedita harum quos voluptatem quis modi earum quo cupiditate! Laboriosam mollitia sapiente deleniti natus tempore. Blanditiis iste quas minima cupiditate voluptatum ex mollitia, quod error similique autem. Nemo repellendus tempore veniam sed recusandae.</p>
+    
+    
+    <h3>Heading 3</h3>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti pariatur, natus suscipit alias ipsum esse, nulla, expedita harum quos voluptatem quis modi earum quo cupiditate! Laboriosam mollitia sapiente deleniti natus tempore. Blanditiis iste quas minima cupiditate voluptatum ex mollitia, quod error similique autem. Nemo repellendus tempore veniam sed recusandae.</p>
+    <h3>Heading 3</h3>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti pariatur, natus suscipit alias ipsum esse, nulla, expedita harum quos voluptatem quis modi earum quo cupiditate! Laboriosam mollitia sapiente deleniti natus tempore. Blanditiis iste quas minima cupiditate voluptatum ex mollitia, quod error similique autem. Nemo repellendus tempore veniam sed recusandae.</p>
+    <h3 id="FireFox">Heading 3</h3>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti pariatur, natus suscipit alias ipsum esse, nulla, expedita harum quos voluptatem quis modi earum quo cupiditate! Laboriosam mollitia sapiente deleniti natus tempore. Blanditiis iste quas minima cupiditate voluptatum ex mollitia, quod error similique autem. Nemo repellendus tempore veniam sed recusandae.</p>
+    <h3>Heading 3</h3>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti pariatur, natus suscipit alias ipsum esse, nulla, expedita harum quos voluptatem quis modi earum quo cupiditate! Laboriosam mollitia sapiente deleniti natus tempore. Blanditiis iste quas minima cupiditate voluptatum ex mollitia, quod error similique autem. Nemo repellendus tempore veniam sed recusandae.</p>
+    
+    
+    
+    <h4>Heading 4</h4>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti pariatur, natus suscipit alias ipsum esse, nulla, expedita harum quos voluptatem quis modi earum quo cupiditate! Laboriosam mollitia sapiente deleniti natus tempore. Blanditiis iste quas minima cupiditate voluptatum ex mollitia, quod error similique autem. Nemo repellendus tempore veniam sed recusandae.</p>
+    <h4>Heading 4</h4>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti pariatur, natus suscipit alias ipsum esse, nulla, expedita harum quos voluptatem quis modi earum quo cupiditate! Laboriosam mollitia sapiente deleniti natus tempore. Blanditiis iste quas minima cupiditate voluptatum ex mollitia, quod error similique autem. Nemo repellendus tempore veniam sed recusandae.</p>
+    <h4>Heading 4</h4>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti pariatur, natus suscipit alias ipsum esse, nulla, expedita harum quos voluptatem quis modi earum quo cupiditate! Laboriosam mollitia sapiente deleniti natus tempore. Blanditiis iste quas minima cupiditate voluptatum ex mollitia, quod error similique autem. Nemo repellendus tempore veniam sed recusandae.</p>
+    <h4>Heading 4</h4>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti pariatur, natus suscipit alias ipsum esse, nulla, expedita harum quos voluptatem quis modi earum quo cupiditate! Laboriosam mollitia sapiente deleniti natus tempore. Blanditiis iste quas minima cupiditate voluptatum ex mollitia, quod error similique autem. Nemo repellendus tempore veniam sed recusandae.</p>
+</body>
+</html>
