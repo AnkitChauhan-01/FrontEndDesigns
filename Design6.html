@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigation</title>
     <Style>
+			  body{
+            background-image: url('https://wallpapers.com/images/hd/cat-with-shades-cool-picture-lkenou4wsqrbib37.jpg');
+        }
         .navbar{
             background-color: rgb(169, 245, 169);            
             border-radius: 16px;
@@ -21,11 +24,13 @@
             padding: 4px 4px;
             text-decoration: none;
             color: grey;
-            border: 2px solid grey;
+            border: 2px solid rgb(91, 90, 90);
             border-radius: 0.5cm;            
         }
         .navbar li a:hover{
             background-color: rgb(122, 248, 122); 
+					  font-size: 0.7cm;
+            color: white;
         }
         .search{
             float: right;
@@ -37,6 +42,33 @@
             border-radius: 12px;
             padding: 3px;
             width: 171px;
+        }
+				.friend{
+            font-size: 1cm;
+        }
+        p{
+            font-size: 0.7cm;
+            margin-bottom: 1cm;
+        }
+        th{
+            padding-right: 56px;
+            font-size: 0.7cm;            
+        }
+        th:hover{
+            border: 3px solid black;
+            border-top-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+            /* background-color: rgb(249, 200, 75); */
+            background-color: yellowgreen;
+        }
+        tbody{
+            /* margin: 1cm; */
+            /* font-size: 2cm; */
+            border: 2px solid red;
+        }
+        a{
+            text-decoration: none;
+            color: black;
         }
     </Style>
 </head>
@@ -55,5 +87,44 @@
             </ul>            
         </nav>        
     </header>
+		<h3 class="friend">Implementing table</h3>
+    <p>Example: Transportation means table</p>
+    <table>
+        <thead>
+            <tr>
+                <th><a href="https://www.google.com/search?q=land+transport&sxsrf=AB5stBgmBy9h8TVG-HogtmwWBp7TIUuF1Q%3A1691673965738&source=hp&ei=beXUZLboKtWHoASA0ZzYCg&iflsig=AD69kcEAAAAAZNTzfW928dkthvXVBgpyNb9LSfcRDiNG&oq=land+tra&gs_lp=Egdnd3Mtd2l6IghsYW5kIHRyYSoCCAEyChAAGIAEGBQYhwIyCxAAGIAEGLEDGIMBMggQABiABBixAzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyChAAGIAEGAIYywEyBRAAGIAEMgUQABiABEjAIVAAWLgNcAB4AJABAJgBxQGgAeYKqgEDMC44uAEDyAEA-AEBwgIHECMYigUYJ8ICBBAjGCfCAggQABiKBRiRAsICDhAAGIoFGLEDGIMBGJECwgILEC4YgAQYsQMYgwHCAgUQLhiABMICCxAAGIoFGLEDGIMBwgIREC4YgAQYsQMYgwEYxwEY0QPCAhEQLhiKBRixAxjHARjRAxiRAsICCxAuGIoFGLEDGJECwgIIEC4YgAQYsQPCAgsQABiKBRixAxiRAsICDhAuGIAEGLEDGMcBGNEDwgILEAAYgAQYsQMYyQPCAggQABiKBRiSA8ICCBAAGIAEGJIDwgITEC4YgAQYsQMYgwEYxwEY0QMYCg&sclient=gws-wiz" target="_blank">Land</a></th>
+                <th><a href="https://www.google.com/search?q=water+transport&sca_esv=555449285&sxsrf=AB5stBihiIsCBYSSPGB2X0tQpKThX3AukA%3A1691673971046&ei=c-XUZLquApqI4-EPzuiwoAQ&oq=wastertransport&gs_lp=Egxnd3Mtd2l6LXNlcnAiD3dhc3RlcnRyYW5zcG9ydCoCCAAyDRAAGA0YgAQYsQMYsQMyBxAAGA0YgAQyBxAAGA0YgAQyBxAAGA0YgAQyBxAAGA0YgAQyBxAAGA0YgAQyBxAAGA0YgAQyDRAAGA0YgAQYsQMYgwEyBxAAGA0YgAQyBxAAGA0YgARI3A5Q7gFYpgdwAngBkAEAmAHRAaAB1AiqAQUwLjQuMrgBAcgBAPgBAcICChAAGEcY1gQYsAPCAgoQABiKBRiwAxhDwgIGEAAYBxge4gMEGAAgQYgGAZAGCg&sclient=gws-wiz-serp" target="_blank">Water</a></th>
+                <th><a href="https://www.google.com/search?q=air+transport&sca_esv=555449285&sxsrf=AB5stBihiIsCBYSSPGB2X0tQpKThX3AukA%3A1691673971046&ei=c-XUZLquApqI4-EPzuiwoAQ&ved=0ahUKEwj6s_rQmNKAAxUaxDgGHU40DEQQ4dUDCA8&uact=5&oq=air+transport&gs_lp=Egxnd3Mtd2l6LXNlcnAiDWFpciB0cmFuc3BvcnQyChAAGIoFGLEDGEMyBRAAGIAEMgsQABiABBixAxiDATIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIuxxQxwJYzRhwAngBkAEAmAHsAaAB5AWqAQUwLjMuMbgBA8gBAPgBAcICChAAGEcY1gQYsAPCAgoQABiKBRiwAxhDwgIGEAAYBxgewgIMEC4YBxgeGMcBGNED4gMEGAAgQYgGAZAGCg&sclient=gws-wiz-serp" target="_blank">Air</a></th>
+                <th><a href="https://www.google.com/search?q=multimodal+transport+vehicle&sca_esv=555449285&sxsrf=AB5stBgqm98pop_XKxBIhEvqY9TjKdIajg%3A1691674074908&ei=2uXUZMbTNqa94-EPis2quAQ&oq=multimodal+transport+vehi&gs_lp=Egxnd3Mtd2l6LXNlcnAiGW11bHRpbW9kYWwgdHJhbnNwb3J0IHZlaGkqAggAMgUQIRigAUiaMFDpBFiaKnABeAGQAQCYAf8BoAHEB6oBBTAuMy4yuAEByAEA-AEBwgIKEAAYRxjWBBiwA8ICChAAGIoFGLADGEPCAgUQABiABMICBxAAGIoFGEPCAgYQABgWGB7CAggQABgWGB4YD8ICCBAAGIoFGIYDwgIHECEYoAEYCuIDBBgAIEGIBgGQBgo&sclient=gws-wiz-serp" target="_blank">Hybrid</a></th>    
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <tr>
+                    <td>Car</td>
+                    <td>Cargo</td>
+                    <td>Helicopter</td>
+                    <td>Amphibious ATV</td>
+                </tr>
+                <tr>
+                    <td>Bike</td>
+                    <td>Yacht</td>
+                    <td>Drone</td>   
+                    <td>Hovercraft</td>                 
+                </tr>
+                <tr>
+                    <td>Truck</td>
+                    <td>Submarine</td>
+                    <td>Helicopter</td>                
+                    <td>Seaplane</td>    
+                </tr>
+                <tr>
+                    <td>Train</td>
+                    <td>Ship</td>
+                    <td>Helicopter</td>        
+                    <td>Hydrocopter</td>            
+                </tr>
+        </tbody>
+    </table>	
 </body>
 </html>
