@@ -6,117 +6,12 @@
     <title>rp3.html</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
-    <style>
-        /* *{
-            margin: 0px;
-        } */
-        
-        .cont1{
-            height: 100vh;
-            border: 2px solid rgb(0, 0, 0);
-        }
-        .cont2{
-            height: 66vh;
-            /* border: 2px solid red; */
-            display: flex;
-        }
-        .box{
-            /* width: 32vw; */
-            /* width: 200px; */
-            width: 33.33vw;
-            /* height: 200px; */
-            /* height: 200px; */
-            height: 66vh;
-            /* border: 2px solid darkgreen; */
-            display: inline-block;
-            color: white;
-            /* text-align: end; */
-            /* margin: -2px; */
-        }
-        img{
-            display: inline-block;
-            width: 33.33vw;
-            height: 66vh;
-        }
-        #box-1{
-            background-image: url('https://flyingcdn-98ab332c.b-cdn.net/wp-content/uploads/2022/01/Facade-Home-Exterior-Design-in-Gurgaon.jpeg');
-            /* width: 1cm; */
-            background-repeat: no-repeat;
-            background-size: 33.33vw 66vh;
-        }
-        #box-2{
-            background-image: url('https://static.vecteezy.com/system/resources/previews/023/122/853/non_2x/modern-office-building-exterior-3d-render-business-architecture-concept-ai-generated-free-photo.jpg');
-            /* width: 1cm; */
-            background-repeat: no-repeat;
-            background-size: 33.33vw 66vh;
-        }
-        #box-3{
-            background-image: url('https://5.imimg.com/data5/SELLER/Default/2021/10/TO/JI/ZO/10491043/building-exterior-designing-service.jpeg');
-            /* width: 1cm; */
-            background-repeat: no-repeat;
-            background-size: 33.33vw 66vh;
-        }
-        #text1{
-            /* border: 2px solid white; */
-            display: block;
-            display: inline-block;
-            position: relative;
-            top: 90%;
-            left: 6%;
-            font-family: 'Oswald', sans-serif;
-            font-size: 0.8cm;
-            /* width: 5cm; */
-        }
-        #text2{
-            /* border: 2px solid white; */
-            display: block;
-            display: inline-block;
-            position: relative;
-            top: 90%;
-            left: 6%;
-            font-family: 'Oswald', sans-serif;
-            font-size: 0.8cm;
-            /* width: 5cm; */
-        }
-        #text3{
-            /* border: 2px solid white; */
-            display: block;
-            display: inline-block;
-            position: relative;
-            top: 90%;
-            left: 6%;
-            font-family: 'Oswald', sans-serif;
-            font-size: 0.8cm;
-            /* width: 5cm; */
-        }
-        .lowerbox{
-            /* border: 2px solid yellowgreen; */
-            width: 300px;
-            height: 34vh;
-            /* margin-left: 70%; */
-            display: flex;
-            background-image: url('https://www.build-review.com/wp-content/uploads/2020/08/modern-exterior.jpg');
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            position: relative;
-            left: 70%;
-        }
-        input{
-            padding: 10px;
-            height: 10px;
-            /* display: flex; */
-            position: relative;
-            top: 43%;
-            left: 75px;
-            width: 131px;
-            height: 30px;
-            font-size: 0.5cm;
-        }
-        
-        
-        
-    </style>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style4rp3.css">
+    
 </head>
 <body>
     <div class="cont1">
@@ -134,10 +29,33 @@
                 <div id="text3">#03 LOUIE'S RESIDENCES</div>
             </div>
         </div>
-        
-        
-        <div class="lowerbox">
-            <input type="text" placeholder="Explore Further">
+
+        <div class="twoboxcontainer">
+            <div class="mbox">
+                <div class="upper">
+                    <div class="microbox" id="microbox-1">
+                        <p class="Enlarged">800</p>
+                        <p class="smaller">FINISHED PRODUCTS</p>
+                    </div>
+                    <div class="microbox" id="microbox-2">
+                        <p class="Enlarged">795</p>
+                        <p class="smaller">HAPPY CUSTOMERS</p>
+                    </div>
+                </div>
+                <div class="lower">
+                    <div class="microbox" id="microbox-3">
+                        <p class="Enlarged">1,200</p>
+                        <p class="smaller">WORKING HOURS</p>
+                    </div>
+                    <div class="microbox" id="microbox-4">
+                        <p class="Enlarged">850</p>
+                        <p class="smaller">CUPS OF TEA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lowerbox">
+                <input type="text" placeholder="Explore Further">
+            </div>
         </div>
     </div>
 </body>
