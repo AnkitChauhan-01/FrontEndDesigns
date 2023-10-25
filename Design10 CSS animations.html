@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,32 +8,156 @@
     <title>Basic Animation</title>
     <style>
         body {
-    margin: 0;
-    overflow: hidden;
-}
+            margin: 0;
+            overflow: hidden;
+        }
 
-.box {
-    width: 50px;
-    height: 50px;
-    background-color: blue;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    animation: moveRight 2s linear infinite;
-}
+        .box {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            position: absolute;
+            top: 10%;
+            left: 0;
+            animation: moveRight 2s linear infinite;
+        }
+        .box1 {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            position: absolute;
+            top: 20%;
+            left: 0;
+            animation: moveRight 2s linear infinite;
+            animation-direction: reverse;
+        }
+        .box2 {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            position: absolute;
+            top: 30%;
+            left: 0;
+            animation: moveRight 2s linear infinite;
+        }
+        .box3 {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            position: absolute;
+            top: 40%;
+            left: 0;
+            animation: moveRight 2s linear infinite;
+            animation-direction: reverse;
+        }
+        .box4 {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            animation: moveRight 2s linear infinite;
+        }
+        .box5 {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            position: absolute;
+            top: 60%;
+            left: 0;
+            animation: moveRight 2s linear infinite;
+            animation-direction: reverse;
+        }
+        .box6 {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            position: absolute;
+            top: 70%;
+            left: 0;
+            animation: moveRight 2s linear infinite;
+        }
+        .box7 {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            position: absolute;
+            top: 80%;
+            left: 0;
+            animation: moveRight 2s linear infinite;
+            animation-direction: reverse;
+        }
+        .box8 {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            position: absolute;
+            top: 90%;
+            left: 0;
+            animation: moveRight 2s linear infinite;
+        }
+        .box9 {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            animation: moveRight 2s linear infinite;
+            animation-direction: reverse;
+        }
 
-@keyframes moveRight {
-    0% {
-        left: 0;
-    }
-    100% {
-        left: 100%;
-    }
-}
+        @keyframes moveRight {
+            0% {
+                left: 0;
+                background-color: violet;
+            }
 
+            14% {
+                background-color: indigo;
+            }
+
+            28% {
+                background-color: blue;
+            }
+
+            42% {
+                background-color: green;
+            }
+
+            57% {
+                background-color: yellow;
+            }
+
+            71% {
+                background-color: orange;
+            }
+
+            85% {
+                background-color: red;
+            }
+
+            100% {
+                left: 100%;
+                background-color: violet;
+
+            }
+        }
     </style>
 </head>
+
 <body>
     <div class="box"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+    <div class="box6"></div>
+    <div class="box7"></div>
+    <div class="box8"></div>
+    <div class="box9"></div>
 </body>
+
 </html>
